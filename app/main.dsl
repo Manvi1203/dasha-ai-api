@@ -22,7 +22,7 @@ start node root
     {
         #connectSafe($phone);
         #waitForSpeech(1000);
-        #sayText("Hello. My name is Dasha. Reply with coooool if safe and urghhh if unsafe?");
+        #sayText("Hello. My name is Dasha. Reply with cool or order a pizza if you feel unsafe!");
         wait *;
     }   
     transitions 

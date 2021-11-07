@@ -1,0 +1,94 @@
+####################################################################################################
+human: good
+ai: Hello. My name is Dasha. Reply with coooool if safe and urghhh if unsafe?
+human: Cool.
+[
+  {
+    "type": "Intent",
+    "skill": "92356872f60fb4630a0441ce95542034:v2",
+    "weight": 0.77366,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "cool",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+ai: This is from Delhi central police station. The police car is just arriving at your current location
+human: Dancing.
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+ai: Could you say it one more time?
+human: 
+[
+  {
+    "type": "Intent",
+    "skill": "92356872f60fb4630a0441ce95542034:v2",
+    "weight": 0.98383,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "bye",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "common_phrases",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": "bye",
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: bye
+ai: Sorry we didn't see this through. Call back another time. Bye!
